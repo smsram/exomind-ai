@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ExoMind Ai</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="ExoMind-Ai.jpg">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <ul>
+            <li><a href="index.html">Isolated Chat</a></li>
+            <li><a href="file2response.html">File2Response</a></li>
+            <li><a href="txt2img.html">Txt2Img</a></li>
+            <li><a href="contextual-chat.html" class="present-page">Contextual Chat</a></li>
+        </ul>
+    </header>
+    <!-- Chat Section -->
+    <section class="section1">
+        <div class="section-container">
+            <div class="section-main-txt">
+                <h1  data-text="ExoMind Ai">ExoMind Ai</h1>
+            </div>
+            <div class="chat-container">
+                <div class="chat-container-txt">
+                    <h1 id="typed1"></h1>
+                </div>
+                <div class="chat-container-main">
+                    <div class="chat-input-container">
+                        <div>
+                            <textarea name="user-input" id="user-input" placeholder=""></textarea><span></span>
+                            <button id="send-button">Send</button>
+                            <button id="stop-button">Stop</button>
+                        </div>
+                    </div>
+                    <div class="chat-messages" id="chat-messages">
+                        <!-- Chat messages will appear here -->
+                    </div>
+                    <i class="bx bx-down-arrow-alt scroll-button" style="display: none;"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer>
+        <div class="footer-info">
+            <div>
+                <i class='bx bx-phone'></i>
+                <div>
+                    <h3>Phone Number</h3>
+                    <p>7995302506</p>
+                </div>
+            </div>
+            <div>
+                <i class='bx bxs-edit-location' ></i>
+                <div>
+                    <h3>Address</h3>
+                    <p>Kakinada district, Andhra Pradesh India</p>
+                </div>
+            </div>
+            <div>
+                <i class='bx bx-envelope' ></i>
+                <div>
+                    <h3>Email Address</h3>
+                    <p>smsram001@gmail.com</p>
+                </div>
+            </div>
+        </div>
+        <div class="footer-sm">
+            <a href="#"><i class='bx bxl-github' ></i></a>
+            <a href="#"><i class='bx bxl-linkedin' ></i></a>
+            <a href="#"><i class='bx bxl-youtube' ></i></a>
+            <a href="#"><i class='bx bxl-instagram' ></i></a>
+            <a href="#"><i class='bx bxl-whatsapp' ></i></a>
+        </div>
+        <div class="footer-text">
+                <p>Copyright &copy; 2024 by <a href="#">ExoMind Ai</a> | All Right Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="contextual-chat.js"></script>
+</body>
+</html>
